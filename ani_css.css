@@ -1,0 +1,32 @@
+
+
+.ani_boom {
+  animation-name: boomerang;
+  animation-duration: 5s;
+
+
+}
+
+@keyframes boomerang {
+  0% { transform: translateX(0px);}
+  35% { transform: translateX(1200px) translateY(50px) rotate(5turn);}
+  50% { transform: translateX(1400px) translateY(250px) rotate(1turn);}
+  65% { transform: translateX(1300px) translateY(500px);}
+  80% { transform: translateX(800px) translateY(300px);}
+  100% { transform: translateY(-1px);}
+}
+
+body {
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/68/69/df/6869df932199300682231f6ff16ff9f6.jpg);
+  background-size: cover;
+}
+footer {
+  bottom: -55%;
+  left: 35%;
+  position: relative;
+  align-content: center;
+
+}
+footer a img:hover {
+  border: 15px solid black;
+}
